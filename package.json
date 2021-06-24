@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Example using OpenLayers with Parcel",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "parcel serve index.html",
     "build": "parcel build --public-url . index.html"
   },
   "dependencies": {
     "ol": "^6.5.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
+    "parcel": "^2.0.0-beta.3.1"
   }
 }

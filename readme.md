@@ -2,19 +2,17 @@
 
 This example demonstrates how the `ol` package can be used with Parcel.
 
-Clone the project.
+To get started, run the following (requires Node 12+):
 
-    git clone git@github.com:openlayers/ol-parcel.git
+    npx create-ol-app my-app --template parcel
 
-Install the project dependencies.
+Then change into your new `my-app` directory and start a development server (available at http://localhost:1234):
 
-    cd ol-parcel
-    npm install
+    cd my-app
+    npm start
 
-Create a bundle for the browser.
+To generate a build ready for production:
 
     npm run build
 
-Open `index.html` to see the result.
-
-    open dist/index.html
+Then deploy the contents of the `dist` directory to your server.
