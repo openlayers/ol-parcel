@@ -6,7 +6,7 @@ To get started, run the following (requires Node 12+):
 
     npx create-ol-app my-app --template parcel
 
-Then change into your new `my-app` directory and start a development server:
+Then change into your new `my-app` directory and start a development server (available at http://localhost:1234):
 
     cd my-app
     npm start
