@@ -10,7 +10,7 @@
     "ol": "latest"
   },
   "devDependencies": {
-    "parcel": "^2.0.0"
+    "parcel": "^2.8.2"
   },
   "browserslist": "defaults"
 }
